@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @author      Oleh Kravets <oleh.kravets@snk.de>
+ * @copyright   Copyright (c) 2020 schoene neue kinder GmbH  (https://www.snk.de)
+ * @license     https://opensource.org/licenses/MIT          MIT License
+ */
+ -->
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <customer>
+            <password>
+                <history_size>10</history_size>
+                <history_message><![CDATA[Please choose a password that you haven't used before.]]></history_message>
+            </password>
+        </customer>
+    </default>
+</config>

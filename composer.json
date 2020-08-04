@@ -1,0 +1,23 @@
+{
+    "name": "snk/magento2-module-password-history",
+    "description": "Password history restriction for frontend users",
+    "type": "magento2-module",
+    "license": [
+        "MIT"
+    ],
+    "require": {
+        "php": "7.*",
+        "magento/community-edition": "2.3.*"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-master"
+    },
+    "autoload": {
+        "files": [
+            "src/registration.php"
+        ],
+        "psr-4": {
+            "Snk\\PasswordHistory\\": "src"
+        }
+    }
+}
