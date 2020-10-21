@@ -14,6 +14,12 @@ Magento 2 does not have a password history for frontend users and this module ad
 
 Tested for Magento 2.3.5 and PHP 7.2
 
+### Installation
+
+Can be installed with composer:
+
+```composer require snk/magento2-module-password-history```
+
 
 ## Details
 
